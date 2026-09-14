@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tawonga — Law &amp; Technology</title>
+  <meta name="description" content="Personal site of Tawonga — interested in law and technology, currently learning and open to collaboration." />
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="#top">Tawonga<span class="dot">.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#learning">Learning</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        <svg class="icon icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"/></svg>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">👋 Hi, I'm Tawonga</p>
+        <h1>Where <span class="accent">law</span> meets <span class="accent">technology</span>.</h1>
+        <p class="lede">
+          I'm interested in the space between legal thinking and technical systems —
+          how regulation shapes technology, and how technology reshapes the practice of law.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">Get in touch</a>
+          <a class="btn btn-ghost" href="#interests">See my interests</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <div class="card">
+          <p>
+            I'm exploring how law and technology intersect — from digital rights and
+            regulation to the tools that make legal work faster and more accessible.
+            This site is a small home base for that work while it grows.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="interests" class="section alt">
+      <div class="container">
+        <h2 class="section-title">Interests</h2>
+        <div class="grid">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">⚖️</div>
+            <h3>Law</h3>
+            <p>Legal reasoning, regulation, and how frameworks adapt to new technology.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">💻</div>
+            <h3>Technology</h3>
+            <p>Software, systems, and the tools that are changing how legal work gets done.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🤝</div>
+            <h3>Collaboration</h3>
+            <p>Open to collaborating on anything at the crossroads of legal and technological work.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="learning" class="section">
+      <div class="container">
+        <h2 class="section-title">Currently Learning</h2>
+        <div class="card learning-card">
+          <p class="status-line"><span class="pulse" aria-hidden="true"></span> 🌱 Always picking up something new — check back for updates.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container contact-inner">
+        <h2 class="section-title">Let's talk</h2>
+        <p class="lede">
+          Looking to collaborate on anything legal and technological?
+          I'd love to hear from you.
+        </p>
+        <a class="btn btn-primary btn-large" href="mailto:dowatawonga@gmail.com">📫 dowatawonga@gmail.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Tawonga. Built with care.</p>
+      <a href="https://github.com/Tawonga1" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
